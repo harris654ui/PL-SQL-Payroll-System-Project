@@ -19,9 +19,7 @@ Key features include:
 
 ## Technologies Used
 
-- **Oracle Database**
-- **TOAD for Oracle** 
-- **PL/SQL** 
+Project was made using using PL/SQL in TOAD for Oracle, utilizing the HR schema in Oracle Database.
 
 ---
 
