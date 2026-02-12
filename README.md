@@ -53,7 +53,11 @@ END;`
 - Verify the payroll entries:
 `SELECT * FROM hr.payroll_history;`
 
-
-
 ---
+
+## Sample Output
+
+Here’s a screenshot of the payroll procedure running successfully and inserting data into `payroll_history`:
+
+![Payroll Output](assets/payroll_output.png)
 
