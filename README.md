@@ -19,9 +19,9 @@ Key features include:
 
 ## Technologies Used
 
-- **Oracle Database** (HR schema)
-- **TOAD for Oracle** (for coding and execution)
-- **PL/SQL** (Procedures, loops, and conditional logic)
+- **Oracle Database**
+- **TOAD for Oracle** 
+- **PL/SQL** 
 
 ---
 
@@ -54,11 +54,4 @@ END;`
 `SELECT * FROM hr.payroll_history;`
 
 ---
-
-## Sample Output
-
-Here’s a screenshot of the payroll procedure running successfully and inserting data into `payroll_history`:
-
-![Payroll Output](main/payroll_output.PNG
-)
 
