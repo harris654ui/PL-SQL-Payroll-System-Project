@@ -28,7 +28,7 @@ Key features include:
 ## Database Setup:
 The following tables and procedures where created in this project
 
-### `payroll_history`
+### payroll_history
 Stores the payroll records for each employee.
 
 ### salary_config
