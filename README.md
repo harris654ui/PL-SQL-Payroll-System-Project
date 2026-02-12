@@ -59,5 +59,6 @@ END;`
 
 Here’s a screenshot of the payroll procedure running successfully and inserting data into `payroll_history`:
 
-![Payroll Output](main/payroll_output.png)
+![Payroll Output](main/payroll_output.PNG
+)
 
