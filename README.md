@@ -40,9 +40,9 @@ Calculates payroll for all employees on a given pay period.
 ## Usage
 
 - Make sure the HR schema is available and has employee data.
-- Create the payroll_history and salary_config tables as shown above.
+- Create the payroll_history and salary_config tables using code given in repo.
 - Populate the salary_config table with tax rates for salary ranges.
-- Compile the payroll_date procedure in your Oracle environment.
+- Compile the payroll_date procedure in a Oracle environment.
 - Execute the procedure for a specific pay period:
 `BEGIN
     payroll_date(SYSDATE);
