@@ -25,3 +25,35 @@ Key features include:
 
 ---
 
+## Database Setup
+The following tables and procedures where created in this project
+
+### `payroll_history`
+Stores the payroll records for each employee.
+
+### salary_config
+Stores the salary ranges and corresponding tax rates.
+
+### payroll_date(Stored Procedure)
+Calculates payroll for all employees on a given pay period.
+
+---
+
+### Usage
+
+- Make sure the HR schema is available and has employee data.
+- Create the payroll_history and salary_config tables as shown above.
+- Populate the salary_config table with tax rates for salary ranges.
+- Compile the payroll_date procedure in your Oracle environment.
+- Execute the procedure for a specific pay period:
+BEGIN
+    payroll_date(SYSDATE);
+END;
+
+- Verify the payroll entries:
+SELECT * FROM hr.payroll_history;
+
+
+
+---
+
