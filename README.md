@@ -1,19 +1,18 @@
 # PL/SQL Payroll Management System
 
-This is a PL/SQL project designed to calculate and store payroll information for employees using Oracle's HR schema. The project demonstrates table creation, salary configuration and payroll processing using PL/SQL procedures.
+This is a PL/SQL project designed to calculate and store payroll information for employees using Oracle's HR schema. The project processing res.
 
 ---
 
 ## Project Overview
 
-This project automates the payroll calculation for employees. It calculates gross salary, tax amount, bonuses and net pay based on pre existing data in the Oracle HR schema. Payroll records are stored in a dedicated `payroll_history` table for tracking purposes.
+This project automates the payroll calculation for employees. It calculates gross salary, tax amount, bonuses and net pay based on pre exsisting data in the Oracle HR schema. Payroll records are all stored in a dedicated `payroll_history` table.
 
 Key features include:
 
 - Automatic tax calculation based on salary ranges
 - Bonus calculation for employees with commissions
 - Payroll record insertion for each employee per pay period
-- Simple, reusable PL/SQL procedure
 
 ---
 
@@ -26,10 +25,10 @@ Project was made using using PL/SQL in TOAD for Oracle, utilizing the HR schema 
 ## Database Setup:
 The following tables and procedures where created in this project
 
-### payroll_history
+### payroll_history(Table)
 Stores the payroll records for each employee.
 
-### salary_config
+### salary_config(Table)
 Stores the salary ranges and corresponding tax rates.
 
 ### payroll_date(Stored Procedure)
