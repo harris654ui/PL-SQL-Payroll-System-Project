@@ -1,6 +1,6 @@
 # PL/SQL Payroll Management System
 
-This is a PL/SQL project designed to calculate and store payroll information for employees using Oracle's HR schema. The project processing res.
+This is a PL/SQL project designed to calculate and store payroll information for employees using Oracle's HR schema.
 
 ---
 
@@ -31,9 +31,12 @@ Stores the payroll records for each employee.
 ### salary_config(Table)
 Stores the salary ranges and corresponding tax rates.
 
+## Code for both tables is available in the `Tables.sql` file in the repo.
+
 ### payroll_date(Stored Procedure)
 Calculates payroll for all employees on a given pay period.
 
+## Code for the procedure is available in the `Procedure.sql` file in the repo.
 ---
 
 ## Usage
