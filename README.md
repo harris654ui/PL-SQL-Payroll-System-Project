@@ -31,12 +31,12 @@ Stores the payroll records for each employee.
 ### salary_config(Table)
 Stores the salary ranges and corresponding tax rates.
 
-## Code for both tables is available in the `Tables.sql` file in the repo.
+#### Code for both tables is available in the `Tables.sql` file in the repo.
 
 ### payroll_date(Stored Procedure)
 Calculates payroll for all employees on a given pay period.
 
-## Code for the procedure is available in the `Procedure.sql` file in the repo.
+#### Code for the procedure is available in the `Procedure.sql` file in the repo.
 ---
 
 ## Usage
